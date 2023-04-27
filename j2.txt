@@ -1,0 +1,4 @@
+course: https://www.youtube.com/watch?v=8dWL3wF_OMw
+-----------------------------
+1)14:23 Variables HTML code
+2)16:03 Variables JS code

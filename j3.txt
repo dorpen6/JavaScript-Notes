@@ -1,0 +1,1 @@
+In JavaScript, arithmetic expressions are used to perform mathematical calculations on numbers using operators like addition, subtraction, multiplication, and division.

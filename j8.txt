@@ -1,0 +1,46 @@
+JS
+1)JS code
+let a;
+let b;
+let c;
+
+document.getElementById("submitButton").onclick = function(){
+    a = document.getElementById("aTextBox").value;
+    a = Number(a);
+
+    a = document.getElementById("bTextBox").value;
+    a = Number(b);
+
+    c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+    document.getElementById("cLabel").innerHTML = "Side C: " + c;
+
+
+}
+
+2)HTNL code
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  </head>
+  <body>
+    <label id="aLabel"> Side A</label> <br>
+    <input type="text" id="aTextBox"><br>
+    <label id="bLabel">Side B</label><br>
+    <input type="text" id="bTextBox"><br>
+    <button type="button" id="submitButton">OK</button><br>
+    <label id="cLabel"></label><br>
+
+
+
+
+    <script src="Main.js"></script>
+
+  </body>
+</html>

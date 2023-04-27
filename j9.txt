@@ -1,0 +1,54 @@
+Count Program.
+Source code:
+
+JavaScript:
+let count = 0;
+
+document.getElementById("decreaseBtn").onclick = function(){
+    count-=1;
+    document.getElementById("countLabel").innerHTML = count;
+
+}
+
+document.getElementById("resetBtn").onclick = function(){
+    count=0;
+    document.getElementById("countLabel").innerHTML = count;
+
+}
+
+document.getElementById("increaseBtn").onclick = function(){
+    count+=1;
+    document.getElementById("countLabel").innerHTML = count;
+
+}
+
+HTML:
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <label id="countLabel">0</label><br>
+    <button id="decreaseBtn">decrease</button>
+    <button id="resetBtn">reset</button>
+    <button id="increaseBtn">increase</button>
+
+
+
+    <script src="Main.js"></script>
+
+  </body>
+</html>
+
+CSS
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}

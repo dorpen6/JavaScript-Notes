@@ -1,0 +1,60 @@
+course: https://www.youtube.com/watch?v=8dWL3wF_OMw
+
+1)Variables: container.
+keywords: var, let, const.
+1.
+let age;
+console.log(age);
+2.
+let age;
+age = 21;
+console.log(age);
+3.
+string
+let firstName = "Ali";
+console.log(firstName)
+4.
+bool
+let student = true;
+console.log(student);
+
+5. Variable JavaScript Code:
+
+let firstName = "bro";
+let age = 21;
+let student = true;
+
+console.log("Hello", firstName);
+console.log("You are", age, "years old");
+console.log("Enrolled", student);
+
+document.getElementById("p1").innerHTML = "Hello " + firstName;
+document.getElementById("p2").innerHTML = "You are " + age + "years old.";
+document.getElementById("p3").innerHTML = "Enroled = " + student;
+/*.innerHTML
+.innerHTML is a property in JavaScript that allows you 
+to access or modify the HTML content of 
+an element in a web page.
+*/
+
+6. Variables HTML code:
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  </head>
+  <body>
+    <p id="p1"></p> <!-- "id" is like "class"
+    and it is possible to call it by .getElementById command-->
+    <p id="p2"></p>
+    <p id="p3"></p>
+
+    <script src="Main.js"></script>
+
+  </body>
+</html>

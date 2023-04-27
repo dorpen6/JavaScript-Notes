@@ -1,0 +1,14 @@
+Math
+1)
+let x = 3.14;
+
+
+//x = Math.round(x);
+//x = Math.floor(x); //it is always go the lowest
+//x = Math.ceil(x); //highest
+//x = Math.pov(x, 3); //power to 3
+//x = Math.sqrt(x); //kok alti
+//x = Math.abs(x); //absolute, away from zero
+
+
+console.log(x)

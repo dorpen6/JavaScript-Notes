@@ -1,0 +1,40 @@
+user input.
+
+1) Easy Way
+// easy way
+let username = window.prompt("what's your name?")
+console.log(username)
+
+2) Good way
+
+html code:
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  </head>
+  <body>
+    <label id="myLabel">Enter your name:</label><br>
+    <input type="text" id="myText"><br>
+    <button type="button" id="myButton">OK</button>
+
+
+
+    <script src="Main.js"></script>
+
+  </body>
+</html>
+
+JavaScript code:----------
+
+document.getElementById("myButton").onclick = function(){
+	username = document.getElementById("myText").value;
+	console.log(username)
+	document.getElementById("myLabel").innerHTML = "hello " + username;
+}
+
+ 
