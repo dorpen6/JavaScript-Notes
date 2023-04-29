@@ -1,0 +1,19 @@
+let age = window.prompt("how old are you?");
+
+console.log(typeof age); //typeof = the type of a value, sends to console
+age = Number(age);
+age +=1;
+
+console.log("Happy Birthday! You are now", age, "years old");
+
+let x;
+let y;
+let z;
+
+x = Number("3.14"); //converts "x" to --> 3.14
+y = String(3.14); //converts "3.14" to --> "y"
+z = Boolean("pizza");
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
