@@ -1,6 +1,7 @@
 
 document.getElementById("myButton").onclick = function(){    //so when we click the button, the program will do:
-    if(document.getElementById("myCheckBox").checked)
+    const myCheckBox = document.getElementById("myCheckBox") //makes it easy to store and use
+    if(myCheckBox.checked)
     {
         console.log("Selected");
 
