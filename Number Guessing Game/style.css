@@ -1,0 +1,22 @@
+body
+{
+    background-color: rgb(8, 69, 44);
+    color: rgb(167, 214, 172);
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+#myButton
+{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    float: left;
+    margin-bottom: 88px;
+
+    
+}
+
