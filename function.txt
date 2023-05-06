@@ -1,0 +1,6 @@
+function addNumbers(num1, num2) {  //give the name
+  return num1 + num2;  //return
+}
+
+let result = addNumbers(3, 5); // Call the function with arguments 3 and 5
+console.log(result); // Output: 8
