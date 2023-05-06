@@ -1,0 +1,27 @@
+/* Add an underline to all text */
+body {
+  text-decoration: underline;
+}
+
+/* Add a line-through to the h1 element */
+h1 {
+  text-decoration: line-through;
+}
+
+/* Add an overline to the paragraph element with the class "over" */
+p.over {
+  text-decoration: overline;
+}
+
+/* Add a dotted underline to links */
+a {
+  text-decoration: underline dotted;
+}
+
+/* Remove the default underline on links */
+a.no-underline {
+  text-decoration: none;
+}
+
+
+/* for text decoration, alt xett, ust xett ve hemcinin linklerin altindaki xetti yox ede bilir */

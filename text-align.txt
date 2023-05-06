@@ -1,0 +1,27 @@
+/* Set the text alignment of all text to center */
+body {
+  text-align: center;
+}
+
+/* Set the text alignment of the h1 element to left */
+h1 {
+  text-align: left;
+}
+
+/* Set the text alignment of the paragraph element with the class "right" to right */
+p.right {
+  text-align: right;
+}
+
+/* Set the text alignment of links to center */
+a {
+  text-align: center;
+}
+
+/* Set the text alignment of the text inside a div with the class "wrapper" to justify */
+div.wrapper p {
+  text-align: justify;
+}
+
+
+/* just the location of the texts */

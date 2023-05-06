@@ -1,0 +1,29 @@
+/* Set the font family of all text to Arial */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set the font family of the h1 element to Georgia */
+h1 {
+  font-family: Georgia, serif;
+}
+
+/* Set the font family of the paragraph element with the class "fancy" to "Helvetica Neue", Arial, sans-serif */
+p.fancy {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Set the font family of links to "Times New Roman", Times, serif */
+a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Set the font family of the text inside a div with the class "wrapper" to "Open Sans", sans-serif */
+div.wrapper p {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+/* textlerin gorunusunu teyin edir */

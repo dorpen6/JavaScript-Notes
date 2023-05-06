@@ -1,0 +1,25 @@
+/* Target all list items */
+li {
+  font-weight: normal;
+}
+
+/* Target the third list item and make it bold */
+li:nth-child(3) {
+  font-weight: bold;
+}
+
+/* Target the list item with the class "highlighted" and give it a yellow background */
+li.highlighted {
+  background-color: yellow;
+}
+
+
+
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li class="highlighted">Item 3</li>
+  <li>Item 4</li>
+  <li>Item 5</li>
+</ul>

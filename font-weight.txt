@@ -1,0 +1,27 @@
+/* Set the font weight of all text to normal (400) */
+body {
+  font-weight: normal;
+}
+
+/* Set the font weight of the h1 element to bold (700) */
+h1 {
+  font-weight: bold;
+}
+
+/* Set the font weight of the paragraph element with the class "light" to lighter (100) */
+p.light {
+  font-weight: lighter;
+}
+
+/* Set the font weight of links to 600 */
+a {
+  font-weight: 600;
+}
+
+/* Set the font weight of the text inside a div with the class "wrapper" to 700 */
+div.wrapper p {
+  font-weight: 700;
+}
+
+
+/* sadece textlerin qalinligini falan teyin edir */

@@ -1,0 +1,27 @@
+/* Add 10 pixels of padding to all elements */
+* {
+  padding: 10px;
+}
+
+/* Add 20 pixels of padding to the top and bottom of the h1 element */
+h1 {
+  padding: 20px 0;
+}
+
+/* Add 30 pixels of padding to the left and right of the paragraph element with the class "content" */
+p.content {
+  padding: 0 30px;
+}
+
+/* Add 15 pixels of padding to links */
+a {
+  padding: 15px;
+}
+
+/* Add 25 pixels of padding to a div with the class "container" */
+div.container {
+  padding: 25px;
+}
+
+
+/* this adds free spcaec between texts, nothing special */

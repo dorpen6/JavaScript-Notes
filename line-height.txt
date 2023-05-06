@@ -1,0 +1,27 @@
+/* Set the line height of all text to 1.5 times the font size */
+body {
+  line-height: 1.5;
+}
+
+/* Set the line height of the h1 element to 2 times the font size */
+h1 {
+  line-height: 2;
+}
+
+/* Set the line height of the paragraph element with the class "tight" to 1.2 times the font size */
+p.tight {
+  line-height: 1.2;
+}
+
+/* Set the line height of links to 1.5 times the font size */
+a {
+  line-height: 1.5;
+}
+
+/* Set the line height of the text inside a div with the class "wrapper" to 1.8 times the font size */
+div.wrapper p {
+  line-height: 1.8;
+}
+
+
+/* sadece linenin olcusunu deyisdirir, textnen isi yoxdu */

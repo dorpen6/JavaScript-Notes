@@ -1,0 +1,23 @@
+/* Set the color of all text to red */
+body {
+  color: red;
+}
+
+/* Set the color of the h1 element to blue */
+h1 {
+  color: blue;
+}
+
+/* Set the color of the paragraph element with the class "highlight" to green */
+p.highlight {
+  color: green;
+}
+
+/* Set the color of links to purple and the color of visited links to gray */
+a {
+  color: purple;
+}
+
+a:visited {
+  color: gray;
+}

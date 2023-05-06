@@ -1,0 +1,24 @@
+/* Set the height of all elements to 300 pixels */
+* {
+  height: 300px;
+}
+
+/* Set the height of the header element to 100 pixels */
+header {
+  height: 100px;
+}
+
+/* Set the height of the paragraph element with the class "content" to auto */
+p.content {
+  height: auto;
+}
+
+/* Set the height of images to 150 pixels */
+img {
+  height: 150px;
+}
+
+/* Set the height of a div with the class "container" to 50% */
+div.container {
+  height: 50%;
+}

@@ -1,0 +1,24 @@
+/* Set the width of all elements to 500 pixels */
+* {
+  width: 500px;
+}
+
+/* Set the width of the h1 element to 100% */
+h1 {
+  width: 100%;
+}
+
+/* Set the width of the paragraph element with the class "content" to 80% */
+p.content {
+  width: 80%;
+}
+
+/* Set the width of images to 200 pixels */
+img {
+  width: 200px;
+}
+
+/* Set the width of a div with the class "container" to 90% */
+div.container {
+  width: 90%;
+}

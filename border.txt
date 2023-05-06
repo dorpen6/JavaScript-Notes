@@ -1,0 +1,28 @@
+/* Add a 1px solid black border to all elements */
+* {
+  border: 1px solid black;
+}
+
+/* Add a 2px dashed red border to the h1 element */
+h1 {
+  border: 2px dashed red;
+}
+
+/* Add a 3px double blue border to the paragraph element with the class "box" */
+p.box {
+  border: 3px double blue;
+}
+
+/* Add a 1px dotted green border to links */
+a {
+  border: 1px dotted green;
+}
+
+/* Add a 4px groove purple border to a div with the class "wrapper" */
+div.wrapper {
+  border: 4px groove purple;
+}
+
+
+
+/* adding different kinds of borders */

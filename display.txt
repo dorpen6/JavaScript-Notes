@@ -1,0 +1,27 @@
+/* Hide the element with the ID "example" */
+#example {
+  display: none;
+}
+
+/* Display the h1 element as a block-level element */
+h1 {
+  display: block;
+}
+
+/* Display the unordered list as a flex container */
+ul {
+  display: flex;
+}
+
+/* Display the div element as an inline-block element */
+div {
+  display: inline-block;
+}
+
+/* Display the paragraph element as a table cell */
+p {
+  display: table-cell;
+}
+
+
+/* basically it determines how you want the text displayed, you can make inline-block to make them orderly */

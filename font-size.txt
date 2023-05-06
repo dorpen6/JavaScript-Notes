@@ -1,0 +1,29 @@
+/* Set the font size of all text to 16 pixels */
+body {
+  font-size: 16px;
+}
+
+/* Set the font size of the h1 element to 36 pixels */
+h1 {
+  font-size: 36px;
+}
+
+/* Set the font size of the paragraph element with the class "small" to 12 pixels */
+p.small {
+  font-size: 12px;
+}
+
+/* Set the font size of links to 18 pixels */
+a {
+  font-size: 18px;
+}
+
+/* Set the font size of the text inside a div with the class "wrapper" to 20 pixels */
+div.wrapper p {
+  font-size: 20px;
+}
+
+
+
+
+/* basically the size of the text */

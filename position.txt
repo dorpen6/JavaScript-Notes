@@ -1,0 +1,35 @@
+/* Position the element with the ID "example" relative to its normal position */
+#example {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+/* Position the h1 element relative to its containing block */
+h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Position the unordered list using fixed positioning */
+ul {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Position the div element using sticky positioning */
+div {
+  position: sticky;
+  top: 0;
+}
+
+/* Position the paragraph element using static positioning */
+p {
+  position: static;
+}
+
+
+/* basically the position of the elements */

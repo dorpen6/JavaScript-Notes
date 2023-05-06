@@ -1,0 +1,26 @@
+/* Set the background color of the body element to light gray */
+body {
+  background-color: lightgray;
+}
+
+/* Set the background color of the h1 element to blue */
+h1 {
+  background-color: blue;
+}
+
+/* Set the background color of the paragraph element with the class "highlight" to yellow */
+p.highlight {
+  background-color: yellow;
+}
+
+/* Set the background color of the links to light blue */
+a {
+  background-color: lightblue;
+}
+
+/* Set the background color of a div with the class "container" to white */
+div.container {
+  background-color: white;
+}
+
+/* background color */
