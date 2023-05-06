@@ -1,6 +1,0 @@
-const PI = 3.14;
-console.log(PI); // Output: 3.14
-
-PI = 3.14159; // This will cause an error
-
-//basically it can't be changed later
