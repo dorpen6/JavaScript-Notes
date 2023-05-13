@@ -1,5 +1,22 @@
-#countLabel{
-    display: block;
-    text-align: center;
-    font-size: 50px;
+body {
+    background-color: rgb(94, 154, 233) !important;
+}
+
+.program {
+    border: 5px solid;
+    border-radius: 20px !important;
+}
+
+button {
+    border-radius: 10px;
+}
+
+button:hover { /* when the mouse is over the button change the color */
+    background-color: rgb(129, 91, 24);
+}
+
+#paymentmessage {
+    color: brown;
+    background-color: rgb(255, 255, 255);
+    
 }
